@@ -27,7 +27,7 @@ export const Projects = () => {
                             commits, branching, and tagging.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                            {["Python", "Vim", "Bash"].map((tech, key) => (
                                 <span 
                                     key={key}                               
                                     className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
