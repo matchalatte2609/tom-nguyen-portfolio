@@ -21,8 +21,10 @@ export const Projects = () => {
                                     hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                         <h3 className="text-xl font-bold mb-4"> Build my own Git</h3>
                         <p className="text-gray-400 mb-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus pariatur 
-                            ipsum dolores non nemo voluptatibus corrupti? Necessitatibus nobis reiciendis 
+                            A fully functional Git version control system implementation built from scratch in Python, 
+                            demonstrating deep understanding of Git's internal architecture and data structures. 
+                            This project implements core Git functionality including repository management, object storage, staging, 
+                            commits, branching, and tagging.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
@@ -36,7 +38,7 @@ export const Projects = () => {
                         </div>
                         <div className="flex justify-between items-center">
                             <a 
-                                href="#" 
+                                href="https://github.com/matchalatte2609/matcha-git-python" 
                                 className="text-green-300 hover:text-green-200 transition-colors"
                             > 
                                 View Project 🫆
