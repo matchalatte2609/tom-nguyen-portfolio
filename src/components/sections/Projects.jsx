@@ -48,13 +48,22 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-4"> Build my own Git</h3>
+                        <h3 className="text-xl font-bold mb-4"> 100 Machine Learning Projects</h3>
                         <p className="text-gray-400 mb-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus pariatur 
-                            ipsum dolores non nemo voluptatibus corrupti? Necessitatibus nobis reiciendis 
+                            Educational repository containing 100 beginner to advanced ML projects to help depressed new-grad or ML enthusiast
+                            build a portfolio for breaking into ML Engineering or Data Analyst roles.
                         </p>
+                        <div className="mb-4">
+                            <div className="flex justify-between items-center mb-2">
+                                <span className="text-sm text-gray-400">Work in Progress</span>
+                                <span className="text-sm font-semibold text-green-300">1%</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-2 overflow-hidden">
+                                <div className="bg-gradient-to-r from-green-300 to-cyan-500 h-full rounded-full transition-all duration-500" style={{width: '1%'}}></div>
+                            </div>
+                        </div>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                            {["Python", "Scikit-learn", "Tensorflow", "EDA", "Machine Learning Modelling"].map((tech, key) => (
                                 <span 
                                     key={key}                               
                                     className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
@@ -65,69 +74,13 @@ export const Projects = () => {
                         </div>
                         <div className="flex justify-between items-center">
                             <a 
-                                href="#" 
+                                href="https://github.com/matchalatte2609/100-machine-learning-project#" 
                                 className="text-green-300 hover:text-green-200 transition-colors"
                             > 
                                 View Project 🫆
                             </a>
                         </div>
                     </div>
-
-                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
-                                    hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-4"> Build my own Git</h3>
-                        <p className="text-gray-400 mb-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus pariatur 
-                            ipsum dolores non nemo voluptatibus corrupti? Necessitatibus nobis reiciendis 
-                        </p>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
-                                <span 
-                                    key={key}                               
-                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-                                    {tech}  
-                                </span>
-                            ))}
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <a 
-                                href="#" 
-                                className="text-green-300 hover:text-green-200 transition-colors"
-                            > 
-                                View Project 🫆
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
-                                    hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                        <h3 className="text-xl font-bold mb-4"> Build my own Git</h3>
-                        <p className="text-gray-400 mb-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus pariatur 
-                            ipsum dolores non nemo voluptatibus corrupti? Necessitatibus nobis reiciendis 
-                        </p>
-                        <div className="flex flex-wrap gap-2 mb-4">
-                            {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
-                                <span 
-                                    key={key}                               
-                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-                                    {tech}  
-                                </span>
-                            ))}
-                        </div>
-                        <div className="flex justify-between items-center">
-                            <a 
-                                href="#" 
-                                className="text-green-300 hover:text-green-200 transition-colors"
-                            > 
-                                View Project 🫆
-                            </a>
-                        </div>
-                    </div>
-
-                    
 
                 </div>
             </div>
