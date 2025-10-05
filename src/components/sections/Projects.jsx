@@ -82,6 +82,43 @@ export const Projects = () => {
                         </div>
                     </div>
 
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
+                                    hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                        <h3 className="text-xl font-bold mb-4"> 30 Computer Vision Projects</h3>
+                        <p className="text-gray-400 mb-4">
+                            Educational repository containing 30 beginner to advanced Computer Vision projects covering image classification,
+                            object detection, segmentation, and generative models. Perfect for aspiring CV engineers looking to build
+                            a strong portfolio with hands-on experience in modern deep learning frameworks.
+                        </p>
+                        <div className="mb-4">
+                            <div className="flex justify-between items-center mb-2">
+                                <span className="text-sm text-gray-400">Work in Progress</span>
+                                <span className="text-sm font-semibold text-green-300">3%</span>
+                            </div>
+                            <div className="w-full bg-white/5 rounded-full h-2 overflow-hidden">
+                                <div className="bg-gradient-to-r from-green-300 to-cyan-500 h-full rounded-full transition-all duration-500" style={{width: '3%'}}></div>
+                            </div>
+                        </div>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {["Python", "OpenCV"].map((tech, key) => (
+                                <span 
+                                    key={key}                               
+                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                                    {tech}  
+                                </span>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <a 
+                                href="https://github.com/matchalatte2609/30-computer-vision-projects" 
+                                className="text-green-300 hover:text-green-200 transition-colors"
+                            > 
+                                View Project 🫆
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             </RevealOnScroll>
