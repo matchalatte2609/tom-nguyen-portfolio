@@ -56,10 +56,10 @@ export const Projects = () => {
                         <div className="mb-4">
                             <div className="flex justify-between items-center mb-2">
                                 <span className="text-sm text-gray-400">Work in Progress</span>
-                                <span className="text-sm font-semibold text-green-300">1%</span>
+                                <span className="text-sm font-semibold text-green-300">2%</span>
                             </div>
                             <div className="w-full bg-white/5 rounded-full h-2 overflow-hidden">
-                                <div className="bg-gradient-to-r from-green-300 to-cyan-500 h-full rounded-full transition-all duration-500" style={{width: '1%'}}></div>
+                                <div className="bg-gradient-to-r from-green-300 to-cyan-500 h-full rounded-full transition-all duration-500" style={{width: '2%'}}></div>
                             </div>
                         </div>
                         <div className="flex flex-wrap gap-2 mb-4">
