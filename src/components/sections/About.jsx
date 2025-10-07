@@ -102,12 +102,12 @@ export const About = () => {
                     <div className="space-y-4 text-gray-300">
                         <div>
                             <h4 className="font-bold">Tierra Diamond - Software Engineer Intern (May 25 - Aug. 25)</h4>
-                            <p className="text-gray-400">Do this and do that loremipsum loremipsum</p>
+                            <p className="text-gray-400">Optimized transaction processing and media delivery through data-driven analysis and A/B testing</p>
                         </div>
 
                         <div>
                             <h4 className="font-bold">D&D Diamond Manufacturing - Data Analyst Intern (Feb. 24 - Aug. 24)</h4>
-                            <p className="text-gray-400">Do this and do that loremipsum loremipsum</p>
+                            <p className="text-gray-400">Analyzed product search patterns and tracked subscription metrics to inform feature priorities</p>
                         </div>
                     </div>
                 </div>
