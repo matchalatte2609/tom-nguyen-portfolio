@@ -48,6 +48,33 @@ export const Projects = () => {
 
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
                                     hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                        <h3 className="text-xl font-bold mb-4"> Notion-style text-block editor</h3>
+                        <p className="text-gray-400 mb-4">
+                            A minimal, interactive rich text editor inspired by Notion's block-based editing system. 
+                            Built with React, TypeScript, and Vite to demonstrate modern frontend architecture and user-first design principles.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {["TypeScript", "React", "Supabase", "SQL", "CSS"].map((tech, key) => (
+                                <span 
+                                    key={key}                               
+                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                                    {tech}  
+                                </span>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <a 
+                                href="https://matchalatte2609.github.io/notion-style-block-editor/" 
+                                className="text-green-300 hover:text-green-200 transition-colors"
+                            > 
+                                View Project 🫆
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
+                                    hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                         <h3 className="text-xl font-bold mb-4"> 100 Machine Learning Projects</h3>
                         <p className="text-gray-400 mb-4">
                             Educational repository containing 100 beginner to advanced ML projects to help depressed new-grad or ML enthusiast
