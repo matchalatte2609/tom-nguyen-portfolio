@@ -128,19 +128,53 @@ export const Projects = () => {
                         </div>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["Python", "OpenCV", "argparse"].map((tech, key) => (
-                                <span 
-                                    key={key}                               
-                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full 
+                                <span
+                                    key={key}
+                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full
                                                 text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-                                    {tech}  
+                                    {tech}
                                 </span>
                             ))}
                         </div>
                         <div className="flex justify-between items-center">
-                            <a 
-                                href="https://github.com/matchalatte2609/30-computer-vision-projects" 
+                            <a
+                                href="https://github.com/matchalatte2609/30-computer-vision-projects"
                                 className="text-green-300 hover:text-green-200 transition-colors"
-                            > 
+                            >
+                                View Project 🫆
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1
+                                    hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+                        <h3 className="text-xl font-bold mb-4"> AI Text Summarizer</h3>
+                        <p className="text-gray-400 mb-4">
+                            A Chrome extension that intelligently summarizes web pages and PDF documents using Chrome's built-in Summarizer API.
+                            Features a three-tier approach: direct summarization for short content, smart section extraction for academic papers,
+                            and chunking for long documents.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {["JavaScript", "Chrome API", "PDF.js", "AI/ML"].map((tech, key) => (
+                                <span
+                                    key={key}
+                                    className="bg-green-300/10 text-green-300 py-1 px-3 rounded-full
+                                                text-sm hover:bg-green-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <a
+                                href="https://www.youtube.com/watch?v=v4zHJ-EXK0g&t=38s"
+                                className="text-green-300 hover:text-green-200 transition-colors"
+                            >
+                                Demo Video 🎥
+                            </a>
+                            <a
+                                href="https://github.com/matchalatte2609/ai-text-summarizer"
+                                className="text-green-300 hover:text-green-200 transition-colors"
+                            >
                                 View Project 🫆
                             </a>
                         </div>
